@@ -1,0 +1,181 @@
+
+header{
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+header{
+    background-image: url("https://getwallpapers.com/wallpaper/full/d/5/1/1026016-free-downhill-mountain-bike-wallpaper-2880x1920-pc.jpg");
+}
+.letra1{
+    text-shadow: #2a9d8f 10px 10px 10px;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+.letra2 h1{
+    text-shadow: #2a9d8f 10px 10px 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+    color: white;
+    
+}
+.letra2 h3{
+    font-family: 'Akaya Kanadaka',cursive;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 0 6px #000000;
+}
+button{
+    background: none;
+    border: 2px solid;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 90%;
+    padding: 1em 2em;
+    margin: 20px 0 0 0;  
+    text-align: center;
+    background-color: #fca311;
+    transition:color 0.25s, transform 0.5s, box-shadow 0.25s, border-color 0.25s;
+    font-family: 'Akaya Kanadaka',cursive;
+    border-radius: 20px;
+}
+button:hover{
+    border-color: #2a9d8f;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em 1px darkslategrey;
+    transform: translateY(-0.5em);
+}
+.informacion{
+    background-color: #9d0208;
+    font-family: 'Akaya Kanadaka',cursive;
+}
+.container{
+    background-color: #9d0208;
+}
+
+#img2{
+    width: 100%;
+    border: 5px solid  rgb(245, 24, 24);
+    border-radius: 1em;
+    margin-right: 1em;
+    transition: transform 0.5s;
+}
+#img2:hover{
+    opacity:70%;
+    transform:scale(1.05);
+}
+.icono{
+    background-color: #9d0208;
+    margin-top: 2em;
+    padding: 10px;
+}
+.icono h2{
+    background-color: black;
+    color: white;
+    margin-left: 2em;
+    font-family: 'Akaya Kanadaka',cursive;
+}
+.icono p{
+    color: white;
+    margin-left: 2em;
+    font-family: 'Akaya Kanadaka',cursive;
+}
+.container{
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 800px){
+    .flex-container{
+        flex-direction: column;
+    }
+    .productos{
+        flex-direction: column;
+    }
+}
+.productos{
+    color: white;
+    max-height: 7000px;
+    background: #2a9d8f;
+    text-align: center;
+    padding:20px;
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Akaya Kanadaka',cursive;
+}
+.cont img{
+    max-width: 100%;
+    height: 100%;
+}
+.cont img:hover{
+    opacity:70%;
+    transform:scale(1.05);
+}
+.cont{
+    font-family: 'Akaya Kanadaka',cursive;
+    width:20%;
+    margin:auto;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1px;
+}
+.cont h2{
+    font-size: 2em;
+    padding: 0.2em;
+    
+    color: white;
+    font-family: 'Akaya Kanadaka',cursive;
+}
+.cont h1{
+    color: white;
+    font-family: 'Akaya Kanadaka',cursive;
+}
+.cont p{
+    color: white;
+    font-family: 'Akaya Kanadaka',cursive;
+}
+.contactos{
+    margin-left: 2em;
+    font-family: 'Akaya Kanadaka',cursive;
+    color: white;
+    text-align:left;
+}
+.contactos a{
+    margin-left: 2em;
+    font-family: 'Akaya Kanadaka',cursive;
+    color: white;
+    text-align:left;
+}
+.derechos p{
+    color: #ffb703;
+}
+.derechos {
+    margin-left: 2em;
+    font-family: 'Akaya Kasnadaka',cursive;
+    color: white;
+    text-align: center;
+}
+.derechos h3{
+    color: #2a9d8f;
+    text-align: right;
+    font-family: 'Akaya Kasnadaka',cursive;
+    margin-inline-end: 2em;
+}
+footer{
+    background-color: black;
+}
